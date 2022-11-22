@@ -1,6 +1,5 @@
 # pandas-challenge
- Written Report                                                                November 21st, 2022 
- Natasha Girdharry 
+                                                           
  
 #Overview of Project  
 
