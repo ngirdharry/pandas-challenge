@@ -1,7 +1,7 @@
 # pandas-challenge
                                                            
  
-#Overview of Project  
+# Overview of Project  
 
 A total of 15 highschools were included in the analysis, containing 39,170 students from these schools. 
 
