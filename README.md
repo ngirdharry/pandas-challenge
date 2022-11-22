@@ -47,7 +47,7 @@ Average reading score
 
 5) Scores by School Spending, School Size (<1000, 1000-2000, 2000-5000) and School Type (District or Charter). 
 
-#Conclusions and Comparisons From Dataset
+# Conclusions and Comparisons From Dataset
 
 The following trends/conclusions were observed when assessing this data: 
 
