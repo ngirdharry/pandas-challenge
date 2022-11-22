@@ -1,1 +1,68 @@
 # pandas-challenge
+ Written Report                                                                November 21st, 2022 
+ Natasha Girdharry 
+ 
+#Overview of Project  
+
+A total of 15 highschools were included in the analysis, containing 39,170 students from these schools. 
+
+
+#Purpose 
+
+This analysis analyzed highschools trends to make efficient policy and strategic decision making regarding school budgets and priorties. Summary tables were generated based on the total schools average math and reading scores and overall pass rates of students. As well, the top 5 schools, and bottom 5 schools were assessed to better understand their school trends among school budgets, budgets per students, and average/passing math and reading scores, and overall grade passing. A more in depth analysis was conducted to assess average scores of math and reading among different grades in each school. Trends including school budgetting, size, and type were assessed to understand these factors correlations and student academic performance in math, reading, and overall pass rates.
+
+#Requirements 
+
+Juptyer notebook 
+
+#Analysis 
+
+1) Create a DataFrame that includes the following: 
+
+Total number of unique schools
+Total students
+Total budget
+Average math score
+Average reading score
+% passing math (the percentage of students who passed math)
+% passing reading (the percentage of students who passed reading)
+% overall passing (the percentage of students who passed math AND reading)
+
+2) Create another DataFrame summarizing school information including the following: 
+
+School name
+School type
+Total students
+Total school budget
+Per student budget
+Average math score
+Average reading score
+% passing math (the percentage of students who passed math)
+% passing reading (the percentage of students who passed reading)
+% overall passing (the percentage of students who passed math AND reading)
+
+3) Sort the schools into the top 5 and bottom 5 schools by the percentage of their overall passrates. 
+
+4) Math & Reading scores by grades. 
+
+5) Scores by School Spending, School Size (<1000, 1000-2000, 2000-5000) and School Type (District or Charter). 
+
+#Conclusions and Comparisons From Dataset
+
+The following trends/conclusions were observed when assessing this data: 
+
+1) When assessing trends across the 15 schools we observe that overall, among these 39,170 highschoolers on average students in these schools are better aat reading as on average, 85.8% passed reading, than math where on average, only 75% of these high schoolers have passed. 
+
+2) We can further observe that the top 5 performing schools have higher passing scores for reading and math, however their average reading scores are comparable to those in the bottom 5 schools. One can also observe that individuals in the top 5 performing schools have a smaller school size, where the maximum school size for these 5 schools is 2283, and the maximum for the bottom 5 performing schools is 4761. More data is required (including class size, teacher/school, teacher/class) to further understand how this size difference impacts student academic performance. 
+
+3) When assessing the reading and math scores among different grades across the 15 highschools. One can again observe that individuals in highschool have lower math than reading scores across all grades. As well, grade averages tend to stay consistent from grade 9 through grade 12 in reading and math scores. 
+
+4) Schools that recieved less spending per student (<$585) seemed to have greater on average overall pass rates(90.4%), and greater reading (83.9) and math scores (83.5) compared to individuals in the largest spending category ($645-680) with overall pass rates of 53.5%, and reading and math scores of 81.0 and 77.0 respectively. Further data from students in these schools is required to ascertain why increased spending may have an impact on student performance. 
+
+5) Indviduals in small (<1000) and medium (1000-2000) schools tend to have on average greater academic performance compared to individuals in large schools (2000-5000).  For example, the overall passing rate is 89.9% for small schools, 90.6% for medium sized schools and only 58.3% for large schools. Similarly, an average approximately 96% or greater students from small and medium sized schools pass reading whereas only 82.7% on average do in large schools. As well, on average approximately 93% of students pass math in small; and medium schools whereas approximatrely only 70% pass math in larger highschools on average. More data is again required to understand the influence of larger classes on student performance and student satisfaction within school. 
+
+6) Lastly, when comparing school type (District vs. Charter) one can see that individuals who attend a district school on average have lower math scores (76.9), average reading scores (80.9) compared to those who attend a charter school that have average math and reading scores of 83.5 and 83.9 respectively. Additionally, fewer children in the district schools pass highschool (53.7%), math (66.5%) and reading (80.8%) compared to children in charter schools where there overall average pass rate is 90.4%.
+
+#Credits 
+
+Data generated by Mockaroo, LLC Links to an external site., (2022). Realistic Data Generator. Data for this dataset was generated by edX Boot Camps LLC. 
